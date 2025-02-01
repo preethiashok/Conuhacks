@@ -1,0 +1,32 @@
+# Core Django dependencies
+Django==4.2.13
+
+# MySQL database backend
+mysqlclient==2.1.1
+
+# Environment variable management
+python-dotenv==1.0.0
+django-environ==0.10.0
+
+# Django REST Framework
+djangorestframework==3.14.0
+django-filter==23.2
+
+# JWT Authentication
+djangorestframework-simplejwt==5.2.2
+
+# CORS headers
+django-cors-headers==4.0.0
+
+# AWS S3 storage
+boto3==1.28.0
+django-storages==1.13.2
+
+# Whitenoise for static file management
+whitenoise==6.5.0
+
+# SSH support (if required for remote operations)
+paramiko==3.2.0
+
+# Additional utilities
+Pillow==10.0.0  # For image processing (if needed)
